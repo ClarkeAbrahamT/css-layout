@@ -7,7 +7,12 @@ body {
         
 /* center content inside a container */
 aside {
+    background-color: #c71313;
     text-align: center;
+    margin-top: 32em;
+    margin-bottom: 58em;
+    padding-top: 2em;
+    padding-bottom: 30px;
 }
         
 /* float content inside a block element */
@@ -50,7 +55,11 @@ nav ul li {
 article {
     line-height: 1.2em;
     padding-left: 1em;
-    padding-right: 1 em;
+    padding-right: 1em;
+}
+
+img {
+    float: right;
 }
 
 footer {
@@ -67,15 +76,15 @@ footer {
     margin-right: auto;
     min-width: 25rem;
     max-width: 920px;
-    background-color:#00021f;
+    background-color: #00021f;
     padding: 0;
 }
         
 /* shades the sectioning elements, for demonstration purposes */
 /* you could add colors, margins, and padding to each sectioning element instead */
 #container > * {
-    background-color:#00021f;
-    margin: 0;
+    background-color: #00021f;
+    margin: 1 em;
     padding: 1 em;
 }
 
